@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Navbar />
 
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-4 p-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-4">
         {products.map((p) => (
           <ProductCard key={p.id} product={p} />
         ))}
